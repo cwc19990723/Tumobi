@@ -26,6 +26,9 @@ public abstract class BaseMvpFragment<V extends IBaseView,P extends IPersenter> 
 
     @Nullable
     @Override
+
+
+
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View inflate = inflater.inflate(getLayout(), null);
         mBind = ButterKnife.bind(this, inflate);
