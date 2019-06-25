@@ -23,6 +23,8 @@ public class MainActivity extends BaseActivity implements NewsContract.View {
     public void getIndexReturn(IndexBean indexBean) {
         if(indexBean != null){
             Log.i("YZY", "getIndexReturn: " + indexBean.getData().toString());
+
+            //  新的要上传的
         }
     }
 
